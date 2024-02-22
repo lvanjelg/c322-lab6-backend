@@ -31,7 +31,7 @@ public class DucksRepository {
     private String IMAGES_FOLDER_PATH = "ducks/images/";
     private String AUDIO_FOLDER_PATH = "ducks/audio/";
     private static final String NEW_LINE = System.lineSeparator();
-    private static final String DATABASE_NAME = "ducks/db.txt";
+    private static final String DATABASE_NAME = "./ducks/db.txt";
     private static void appendToFile(Path path, String content)
             throws IOException {
         Files.write(path,
